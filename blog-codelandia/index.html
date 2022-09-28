@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!--- SEO -->
+    <meta name="author" content="Marcelo Figueiredo" />
+    <meta name="description" content="Desafio 1 Codelândia" />
+    <!--- SEO ROBOS DE BUSCA -->
+    <meta name="robots" content="index, follow">
+    <!--- SEO FACEBOOK -->
+    <meta property="og:title" content="Codelândia">
+    <meta property="og:image" content="https://www.lavanderiabrasilia.com.br/imagens/logo.png">
+    <meta property="og:description" content="Desafio 1 Codelândia">
+    <!--- SEO TWITTER -->
+    <meta name="twitter:title" content="Desafio 1 Codelândia">
+
+    <link rel="stylesheet" href="https://unpkg.com/@primer/css@^18.0.0/dist/primer.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Blog - Codelândia</title>
+</head>
+
+<body class="anim-fade-in">
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
+    <header>
+        <div class="header_title">
+            <h1 class="title_left">Codelândia</h1>
+            <h1 class="title_right">blog</h1>
+        </div>
+        <div class="header_search">
+            <form action="#" method="post">
+                <input type="text" name="search" id="searche" placeholder="Pesquisar no blog" required>
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+
+    <main class="content_home">
+
+        <article class="news0">
+            <div class="first_line">
+                <time datetime=”2022-22-07” class="date">22 de julho, 2022</time>
+                <i class="far fa-heart like"></i>
+            </div>
+            <h2 class="title_content">Titulo 1</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur rem qui nam veniam
+                numquam maiores tempore quas vero,<span id="dots1">...</span><span id="more1"> rerum vel? Nemo repellat
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa illo aliquid at. Qui hic fugit
+                    corporis quo, nobis nemo quibusdam facilis assumenda deserunt doloribus ratione, ipsam labore sint
+                    eius voluptatibus. sapiente nulla eos impedit veniam, natus dolores</span></p>
+            <button onclick="myFunction('1')" id="myBtn1">Leia Mais</button>
+        </article>
+
+        <article class="news1">
+            <div class="first_line">
+                <time datetime=”2022-22-07” class="date">22 de julho, 2022</time>
+                <i class="far fa-heart like"></i>
+            </div>
+            <h2 class="title_content">Titulo 2</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur rem qui nam veniam
+                numquam maiores tempore quas vero,<span id="dots2">...</span><span id="more2"> rerum vel? Nemo repellat
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga reiciendis est doloribus quae
+                    assumenda delectus animi quis harum, facere ducimus at iusto necessitatibus aliquid! Nihil accusamus
+                    iusto illum quidem officia. sapiente nulla eos impedit veniam, natus dolores</span></p>
+
+            <button onclick="myFunction('2')" id="myBtn2">Leia Mais</button>
+        </article>
+
+        <article class="news2">
+            <div class="first_line">
+                <time datetime=”2022-22-07” class="date">22 de julho, 2022</time>
+                <i class="far fa-heart like"></i>
+            </div>
+            <h2 class="title_content">Titulo 3</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur rem qui nam veniam
+                numquam maiores tempore quas vero,<span id="dots3">...</span><span id="more3"> rerum vel? Nemo repellat
+                    sapiente nulla eos impedit veniam, natus dolores. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Culpa consequatur dignissimos mollitia neque porro impedit sapiente voluptas est
+                    rerum, recusandae autem similique iste voluptatum corporis modi excepturi, illum beatae
+                    expedita!</span></p>
+            <button onclick="myFunction('3')" id="myBtn3">Leia Mais</button>
+        </article>
+
+        <article class="news3">
+            <div class="first_line">
+                <time datetime=”2022-22-07” class="date">22 de julho, 2022</time>
+                <i class="far fa-heart like"></i>
+            </div>
+            <h2 class="title_content">Titulo 4</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur rem qui nam veniam
+                numquam maiores tempore quas vero,<span id="dots4">...</span><span id="more4"> rerum vel? Nemo repellat
+                    sapiente nulla eos impedit veniam, natus dolores. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Nesciunt accusantium quia maiores delectus laudantium praesentium magnam autem
+                    expedita alias. Sed maiores perferendis debitis facilis facere, minus nemo tempora aut ipsum!</span>
+            </p>
+            <button onclick="myFunction('4')" id="myBtn4">Leia Mais</button>
+        </article>
+
+        <article class="news4">
+            <div class="first_line">
+                <time datetime=”2022-22-07” class="date">22 de julho, 2022</time>
+                <i class="far fa-heart like"></i>
+            </div>
+            <h2 class="title_content">Titulo 5</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur rem qui nam veniam
+                numquam maiores tempore quas vero,<span id="dots5">...</span><span id="more5"> Lorem ipsum dolor sit
+                    amet, consectetur adipisicing elit. Laudantium voluptates alias hic voluptas architecto non adipisci
+                    tempore libero eos, voluptatum autem? Laborum vero quae modi, cupiditate inventore cum sint fugiat!
+                    rerum vel? Nemo repellat sapiente nulla eos impedit veniam, natus dolores</span></p>
+            <button onclick="myFunction('5')" id="myBtn5">Leia Mais</button>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados <i class="far fa-copyright"></i> 2022</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        function myFunction(n) {
+            var dots = document.getElementById("dots" + n);
+            var moreText = document.getElementById("more" + n);
+            var btnText = document.getElementById("myBtn" + n);
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Leia Mais";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Leia Menos";
+                moreText.style.display = "inline";
+            }
+        }
+
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 1000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.news', {
+            delay: 100
+        });
+        ScrollReveal().reveal('.inicio_news', {
+            delay: 200
+        });
+        ScrollReveal().reveal('.titulo_news', {
+            delay: 300
+        });
+        ScrollReveal().reveal('.paragrafo_news', {
+            delay: 400
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
