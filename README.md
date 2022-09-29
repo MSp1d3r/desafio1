@@ -7,3 +7,4 @@
 - JavaScript
 
 ---
+![preview](blog-codelandia.png)
